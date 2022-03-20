@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <title>Pong Game</title>
+    <script type="module" src="./js/bundle.js"></script>
+</head>
+
+<body>
+    <div class="divChooseBtns">
+        <h3>ICH BIN DER ...</h3>
+        <button id="chooseLeftBtn">LINKE SPIELER</button>
+        <button id="chooseRightBtn">RECHTE SPIELER</button>
+    </div>
+
+
+    <div class="divBtn">
+        <button id="startBtn">Start</button>
+        <button id="pauseBtn">Pause/Continue</button>
+        <button id="stopBtn">Stop</button>
+    </div>
+
+    <div class="divPointCounter">
+        <div class="points">
+            <div id="pointsLeftPlayer">0</div>
+        </div>
+        <div class="points">
+            <div id="pointsRightPlayer">0</div>
+        </div>
+    </div>
+    <div class="result">
+        Resultat
+    </div>
+    <div class="divCanvas" tabindex="-1">
+        <canvas id="c"></canvas>
+    </div>
+
+</body>
+
+</html>
